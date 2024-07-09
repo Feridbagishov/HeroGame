@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Hero War Game</title>
+</head>
+<body>
+  <header class="heroCnt">
+    <h2 class="title">Hero War</h2>
+    <div class="scores">
+      <span>Wins: <span id="wins">0</span></span>
+      <span>Hero Health: <span id="healthDamage">0</span></span>
+      <span>Damage: <span id="damage">0</span></span>
+      <span>Losses: <span id="losses">0</span></span>
+    </div>
+  </header>
+  <section class="container">
+    <div class="enemy">
+      <img src="./assets/img/background.png" alt="">
+    </div>
+  </section>
+  <section class="heroAvt">
+    <div class="hero" onclick="addPoint(1)">
+      <img src="./assets/img/Captan.png" alt="Captan">
+    </div>
+    <div class="hero" onclick="addPoint(2)">
+      <img src="./assets/img/deadpool.png" alt="Deadpool">
+    </div>
+    <div class="hero" onclick="addPoint(3)">
+      <img src="./assets/img/spdierman.png" alt="Spiderman">
+    </div>
+    <div class="hero" onclick="addPoint(4)">
+      <img src="./assets/img/Thor.png" alt="Thor">
+    </div>
+  </section>
+
+
+  <script src="./variable.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
